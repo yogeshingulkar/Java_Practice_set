@@ -1,31 +1,15 @@
-import java.util.Scanner;
-class SumOfDigit
-{
-	static int num;
-	static int sum;
-	public static void main(String [] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.print(" Enter the number : " );
-		num = sc.nextInt();
-		int dup = num;
-		SumOfDigits(num);
-		
-		System.out.println(dup + " : " + sum);
-	
-	}
-		
-	public static void SumOfDigits(int num)
-	{
-		sum += num % 10;
-		num /= 10;
-		
-		if(num == 0) return;
-			
-		SumOfDigits(num);
-	}
+class SumOfDigit {
+    public static void main(String[] args) {
 
+        int num = 12345; // Example number
+        int sum = 0;
+
+        // Calculate the sum of digits
+        while (num != 0) {
+            sum += num % 10; // Add the last digit to sum
+            num /= 10; // Remove the last digit
+        }
+
+        System.out.println("Sum of digits: " + sum);
+    }
 }
-
-
-
