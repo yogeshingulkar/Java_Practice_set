@@ -3,7 +3,6 @@ class Author{
 	private String name ;
 	Author(String name ){
 		this.name = name ;
-
 	}
 	public String getAuthorName(){
 		return name ;
@@ -57,23 +56,18 @@ class Library{
 	Library(String name, String address){
 		this.name = name ;
 		this.address = address ;
-
 	}
-
 	public void getLibraryInfo(){
 		System.out.println("Library Information");
 		System.out.println("Name : "+ name );
 		System.out.println("Address : "+ address);
 	}
-
 	public void addLibrarian(Librarian librarian){
 			this.librarian = librarian;
 		}
-
 		public Librarian getLibrarian(){
 			return librarian ;
 		}
-
 		public void addBook(Book book){
 			listBooks.add(book);
 		}
@@ -105,4 +99,5 @@ class AggregationDriver{
 			ele.getBookInfo();
 		}
 	}
+
 }
