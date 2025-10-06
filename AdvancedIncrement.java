@@ -1,7 +1,9 @@
 class AdvancedIncrement 
 {
+    
     public static void main(String[] args) 
     {
+        
         int i = 1;
         int result = i++ + i++ + ++i + --i + i-- + i++; // 1
         System.out.println("Tricky result: " + result);
@@ -75,4 +77,5 @@ class AdvancedIncrement
     public static void print(int val) {
         System.out.println("Printed: " + val);
     }
+
 }
