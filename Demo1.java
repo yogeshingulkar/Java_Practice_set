@@ -1,12 +1,16 @@
-import java.util.Scanner;
 class Demo1{
+	String name ;
+	Demo1(String name){
+		this.name = name;
+	}
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter a Number : ");
-		int Yogesh = sc.nextInt();
-
-		System.out.println(Yogesh);
-
+		Demo1 str = new Demo1("Programming");
+		System.out.println(split(str,3));
+	}
+	private static void split(Demo1 str, int i) {
+		// TODO Auto-generated method stub
+		
+		Str
 	}
 }
