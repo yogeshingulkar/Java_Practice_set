@@ -1,7 +1,6 @@
 import java.util.Arrays;
-
-class 2ndLeastrepeatingElemement{
-
+class 2ndLeastrepeatingElemement
+{
 	public static void main(String[] args) {
 	
 		int [] arr = {3,1,5,6,4,5,4,5,3,2,2,6};
@@ -10,7 +9,6 @@ class 2ndLeastrepeatingElemement{
 
 		int minRep = Integer.MAX_VALUE;
 		int minRep2 = Integer.MAX_VALUE;
-
 	}
 }
 
